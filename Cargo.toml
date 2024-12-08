@@ -1,0 +1,8 @@
+[package]
+name = "vulkan-ai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+llama_cpp = { version = "0.3.2", features = ["vulkan"] }
+whisper-rs = { version = "0.13.2", features = ["vulkan"] }
